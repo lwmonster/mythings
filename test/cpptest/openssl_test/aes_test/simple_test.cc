@@ -32,13 +32,6 @@ int main() {
         cerr << "set key fail" << endl;
         return -1;
     }
-    
-    // 打印秘钥
-    cout << "key:";
-    for(int i = 0; i < 32; ++i) {
-        cout << key[i];
-    }
-    cout << endl;
 
     // 初始化加密解密环境
     //EVP_CIPHER_CTX_init(&encrypt_ctx);
